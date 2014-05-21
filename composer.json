@@ -1,0 +1,25 @@
+{
+    "name": "2ends/zf2-upload",
+    "description": "Abstracts help class for upload of files in zend 2",
+    "type": "library",
+    "keywords": ["upload","files",],
+    "homepage": "https://github.com/jhonmike/Zf2Base",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vinicius Bordinhão",
+            "email": "viniciusbord9@gmail.com",
+            "homepage": "",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "zendframework/zendframework": "2.3.*",
+    },
+    "autoload": {
+        "psr-0": {
+            "Zf2Upload": "src"
+        }
+    }
+}

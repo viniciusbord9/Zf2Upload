@@ -1,0 +1,22 @@
+<?php echo $this->headLink()
+            ->prependStylesheet($this->basePath() .'/assets/css/jquery-file-upload-9.5.7/css/jquery.fileupload.css')
+			->prependStylesheet($this->basePath() .'/assets/css/jquery-file-upload-9.5.7/css/jquery.fileupload-ui.css');
+
+	  echo $this->inlineScript()
+	  		->appendFile($this->basePath() . '/assets/js/jquery-file-upload-9.5.7/js/vendor/jquery.ui.widget.js', 'text/javascript')
+	  		->appendFile($this->basePath() . '/assets/js/jquery-file-upload-9.5.7/js/tmpl.min.js','text/javascript')
+			->appendFile($this->basePath() . '/assets/js/jquery-file-upload-9.5.7/js/load-image.min.js','text/javascript')
+			->appendFile($this->basePath() . '/assets/js/jquery-file-upload-9.5.7/js/canvas-to-blob.min.js','text/javascript')
+			->appendFile($this->basePath() . '/assets/js/jquery-file-upload-9.5.7/js/jquery.blueimp-gallery.min.js','text/javascript')
+			->appendFile($this->basePath() . '/assets/js/jquery-file-upload-9.5.7/js/jquery.iframe-transport.js', 'text/javascript')
+			->appendFile($this->basePath() . '/assets/js/jquery-file-upload-9.5.7/js/jquery.fileupload.js', 'text/javascript')
+			->appendFile($this->basePath() . '/assets/js/jquery-file-upload-9.5.7/js/jquery.fileupload-process.js', 'text/javascript')
+			->appendFile($this->basePath() . '/assets/js/jquery-file-upload-9.5.7/js/jquery.fileupload-image.js', 'text/javascript')
+			->appendFile($this->basePath() . '/assets/js/jquery-file-upload-9.5.7/js/jquery.fileupload-audio.js', 'text/javascript')
+			->appendFile($this->basePath() . '/assets/js/jquery-file-upload-9.5.7/js/jquery.fileupload-video.js', 'text/javascript')
+			->appendFile($this->basePath() . '/assets/js/jquery-file-upload-9.5.7/js/jquery.fileupload-validate.js', 'text/javascript')
+			->appendFile($this->basePath() . '/assets/js/jquery-file-upload-9.5.7/js/jquery.fileupload-ui.js', 'text/javascript')
+			->appendFile($this->basePath() . '/assets/js/jquery-file-upload-9.5.7/js/main.js', 'text/javascript');
+	
+
+; ?>
