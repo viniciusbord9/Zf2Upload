@@ -1,7 +1,7 @@
 <?php 
 
-namespace K13Upload;
+namespace Zf2Upload;
 
-require_once __DIR__ . '/src/K13Upload/Module.php';
+require_once __DIR__ . '/src/Zf2Upload/Module.php';
 
 ?>
